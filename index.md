@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EgoId - AI 진로 매니지 솔루션</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', 'Inter', sans-serif;
+        }
+        /* 커스텀 그라데이션 */
+        .gradient-bg {
+            background: linear-gradient(180deg, #DDD7FB 0%, #F4F2FE 100%);
+        }
+        .card-shadow {
+            box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- ========== 히어로 섹션 ========== -->
+    <header class="gradient-bg text-white pt-16 pb-20 px-4 text-center rounded-b-[40px]">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-sm font-bold tracking-wider text-blue-300">EGOID</h1>
+            <h2 class="text-3xl md:text-4xl font-bold mt-4 leading-tight text-gray-800">
+                이 직무, 나랑 맞나?  데이터 확인, 자소서 문장까지
+            </h2>
+           <br>
+
+            <p class="text-2xl md:text-2xl font-semibold mt-2 text-gray-600">
+                 25분만에 성격·흥미·능력과의 일치 포인트를 짚어주고,<br> 자소서 문장까지 한번에
+            </p>
+
+                
+            <!-- 변경 포인트: 버튼 레이아웃 수정 -->
+            <div class="mt-10 flex flex-col items-center gap-4">
+                <!-- 메인 CTA 버튼 -->
+                    <a href="https://egoid-team.github.io/mvp" class="w-full sm:w-auto md:w-2/3 lg:w-1/2 bg-violet-500 text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg hover:bg-violet-600 transition duration-300">
+                        무료로 검사 시작하기
+                    </a>
+
+                    <!-- 서브 CTA 버튼: 아웃라인 버튼 스타일로 복구하고 크기를 조정 -->
+                    <a href="https://drive.google.com/file/d/16GC8TMIwcjJpXPLPxSIEt8EE0a0J1tdx/view?usp=sharing" target="_blank" class="w-full sm:w-auto bg-transparent border-2 border-violet-500 text-violet-600 			font-bold py-2 px-8 rounded-full text-base hover:bg-violet-500 hover:text-white transition duration-300">
+                        무료 리포트 미리보기
+                    </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-16">
+
+        <!-- ========== 제공 서비스 섹션 ========== -->
+        <section class="text-center">
+            <h2 class="text-3xl font-bold text-gray-800">무엇을 받나요?</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <h3 class="text-xl font-bold text-gray-900">무료 제공 리포트</h3>
+                    <ul class="mt-4 space-y-3 text-gray-600">
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 나에 대한 종합 해석 (성격/흥미/기질)</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 11가지 직업군별 적합도/흥미 일치도/역량 수준</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 적응적 성격 분석 + 맞춤 업무/대인 상황 TIP</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 직업군 리포트 라이트 (내적동기, 자소서 재료)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-2xl card-shadow border-2 border-violet-500">
+                    <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                        유료 업그레이드
+                        <span class="ml-2 text-xs bg-violet-500 text-white font-semibold px-2 py-1 rounded-full">RECOMMEND</span>
+                    </h3>
+                    <ul class="mt-4 space-y-3 text-gray-600">
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 상세 분석(개별+종합) + 강화법, 리스크 대비</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 직업군 풀 리포트 (필수 역량/내적동기/위험요소 등)</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 자소서 키워드 & ATS 키워드 + 이력서 가이드</li>
+                        <li class="flex items-start"><span class="text-violet-500 mr-2">✔</span> 참고 90일 액션 플랜 </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== 차별점 섹션 ========== -->
+        <section class="mt-20 text-center">
+            <h2 class="text-3xl font-bold text-gray-800">EgoId 테스트만의 차별점</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <div class="text-violet-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold">5가지 진로 테스트</h3>
+                    <p class="mt-2 text-gray-600 text-sm">AI 진로 매니저와 함께하는 <br> 입체적 분석</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <div class="text-violet-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold">실전 연결 리포트</h3>
+                    <p class="mt-2 text-gray-600 text-sm">자기 이해를 넘어 실전에 연결되는 <br> 심층 정보</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <div class="text-violet-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h3 class="text-lg font-bold">25분의 집중 검사</h3>
+                    <p class="mt-2 text-gray-600 text-sm">시간 낭비 없이 핵심만 빠르게</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== 설명 및 추천 대상 섹션 ========== -->
+        <section class="mt-20">
+            <div class="bg-white rounded-2xl card-shadow overflow-hidden md:flex">
+                <div class="md:w-1/2 p-8">
+                    <h3 class="text-2xl font-bold text-gray-800"> 당연한 얘기만 하던 기존 진로검사들 <br> Egoid가 진짜 개인 맞춤이 무엇인지 보여드릴게요. </h3>
+                    <p class="mt-4 text-gray-600">
+                        자소서를 어디서부터 시작해야 할지 막막한 대학교 3–4학년과 수많은 정보 속에서 방향을 잃은 취업 준비생에게 Egoid는 기준을 제공합니다.
+                    </p>
+                    <p class="mt-4 text-gray-600">
+                        자기 이해와 커리어 분석을 결합해 앞으로의 진로선택에 필요한 근거를 제시합니다. <br> 검사 이후 기존 자소서를 발전시키고 차별화된 나만의 이야기를 구성할 수 있도록 구체적 문장과 키워드를 제공합니다.
+                    </p>
+                </div>
+                <div class="md:w-1/2 bg-gray-100 p-8">
+                    <h3 class="text-xl font-bold text-gray-800">이런 분들에게 추천해요!</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li class="flex items-center text-gray-700">
+                            <svg class="h-6 w-6 text-violet-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            취업 준비의 첫발을 내딛는 대학생
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <svg class="h-6 w-6 text-violet-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            진로와 커리어에 대한 확신이 필요한 취준생
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <svg class="h-6 w-6 text-violet-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            자소서에 나만의 강점을 담고 싶은 분
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========== 사용자 후기 섹션 ========== -->
+        <section class="mt-20 text-center">
+            <h2 class="text-3xl font-bold text-gray-800">베타테스트 만족도 9.2/10</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <p class="text-gray-600">"기존 검사들보다 나에 대해 맞춤으로 해석해주는 부분이 도움이 되었습니다."</p>
+                    <div class="mt-4 font-semibold text-gray-800">대학 4학년 (경영전공)</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <p class="text-gray-600">"내가 선택한 직업군에 들어갈 때, 어떤 경험과 감정을 가지게 될 지 미리 알 수 있어서 좋았습니다."</p>
+                    <div class="mt-4 font-semibold text-gray-800">대학원생 (인문계열)</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl card-shadow">
+                    <p class="text-gray-600">"이력서 하이라이트와 하루 업무 플로우를 볼 수 있어 자소서 작성에 도움이 됐어요."</p>
+                    <div class="mt-4 font-semibold text-gray-800">취준생 (기획자 직군)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== 최종 CTA 섹션 ========== -->
+        <section class="mt-20 text-center">
+            <h2 class="text-3xl font-bold text-gray-800">이제, 당신의 진짜 강점을 발견할 시간입니다.</h2>
+            <div class="mt-8">
+                 <!-- 
+                  ▼▼▼ 검사하기 CTA 버튼 ▼▼▼
+                  href="#" 부분에 실제 검사 페이지 링크를 넣어주세요.
+                  예: href="https://example.com/test" 
+                -->
+                <a href="#" class="inline-block bg-violet-600 text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg hover:bg-violet-700 transition duration-300">
+                    테스트 시작하러 가기
+                </a>
+            </div>
+        </section>
+
+        <!-- ========== FAQ 섹션 ========== -->
+        <section class="mt-20 max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 text-center">FAQ</h2>
+            <div class="mt-8 space-y-4">
+                <details class="bg-white p-6 rounded-lg card-shadow group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        결과는 어떻게 받아보나요?
+                        <span class="transform transition-transform duration-300 group-open:rotate-180">▼</span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">무료 리포트는 검사 종류 즉시 보실 수 있습니다. 유료 리포트의 경우, 무료리포트 하단에 있는 결제 버튼을 통해 구글 폼을 작성해주시면, 계좌이체 확인 후 이메일 혹은 카카오톡 플러스 친구로 PDF를 발송해드립니다. </p>
+                </details>
+                <details class="bg-white p-6 rounded-lg card-shadow group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        시간이 얼마나 걸리나요?
+                        <span class="transform transition-transform duration-300 group-open:rotate-180">▼</span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">검사부터 무료 요약 리포트를 확인하기까지 약 25분 정도 소요됩니다.</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg card-shadow group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        리포트는 어떤 데이터로 만들어지나요?
+                         <span class="transform transition-transform duration-300 group-open:rotate-180">▼</span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">모든 해석은 Egoid가 축적한 데이터와 자체 개발 AI 모델을 기반으로 생성됩니다. 각 섹션별 상세 내용은 샘플 리포트를 참고해주세요.</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg card-shadow group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        유료와 무료의 가장 큰 차이가 무엇인가요?
+                         <span class="transform transition-transform duration-300 group-open:rotate-180">▼</span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">직군 카드의 깊이와 직군 수입니다. 유료 리포트는 직군별 미래 예측, 핵심 역량 강화법, 자소서/ATS 키워드, 90일 로드맵 등 훨씬 상세한 정보를 제공하며, 분석해볼 수 있는 직군 수가 결제플랜에 따라 1개, 3개, 11개로 늘어납니다.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== 푸터 ========== -->
+    <footer class="bg-gray-800 text-gray-400 text-xs text-center py-8 mt-16 px-4">
+        <p>에고이드(Egoid) | 대표: 박지원 | 서울시 동작구 흑석로 84, 중앙대학교 108관 211호</p>
+        <p class="mt-2">등록번호 873-67-00487 | 통신판매업 번호 2025-서울동작-1136</p>
+        <p class="mt-2">이메일: info@egoid.net</p>
+    </footer>
+
+</body>
+</html>
